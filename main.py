@@ -5,7 +5,7 @@ from fastapi import FastAPI
 import uvicorn
 
 from pyrogram import Client, filters
-from imdb import search_movie, get_movie
+from imdb_scraper import search_movie, get_movie
 from database import files
 
 # ===== ENV =====
